@@ -36,4 +36,4 @@ jobs:
       run: |
         set -m
         ipython
-        %run test_a1.ipynb
+        run test_a1.ipynb
