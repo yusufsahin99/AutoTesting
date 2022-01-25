@@ -35,5 +35,4 @@ jobs:
     - name: Test with ipytest
       run: |
         set -m
-        ipython
-        run test_a1.ipynb
+        ipython -c "%run test_a1.ipynb" 
