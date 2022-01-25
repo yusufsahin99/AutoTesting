@@ -35,4 +35,5 @@ jobs:
     - name: Test with ipytest
       run: |
         ipython
+        sleep 5
         %run test_a1.ipynb
